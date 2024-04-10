@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "bsp_common.h": "c",
+        "gpio.h": "c",
+        "key.h": "c",
+        "fsl_iomuxc.h": "c",
+        "mcimx6y2.h": "c"
+    }
+}
