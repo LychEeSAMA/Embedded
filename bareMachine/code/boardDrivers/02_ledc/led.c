@@ -1,4 +1,4 @@
-#include "main.h"
+#include "led.h"
 
 /*
  * @description	: 使能I.MX6U所有外设时钟
@@ -7,13 +7,13 @@
  */
 void clk_enable(void)
 {
-    CCM_CCGR0 = 0xffffffff;
-	CCM_CCGR1 = 0xffffffff;
-	CCM_CCGR2 = 0xffffffff;
-	CCM_CCGR3 = 0xffffffff;
-	CCM_CCGR4 = 0xffffffff;
-	CCM_CCGR5 = 0xffffffff;
-	CCM_CCGR6 = 0xffffffff;
+    CCM_CCGR0 = 0xFFFFFFFF;
+	CCM_CCGR1 = 0xFFFFFFFF;
+	CCM_CCGR2 = 0xFFFFFFFF;
+	CCM_CCGR3 = 0xFFFFFFFF;
+	CCM_CCGR4 = 0xFFFFFFFF;
+	CCM_CCGR5 = 0xFFFFFFFF;
+	CCM_CCGR6 = 0xFFFFFFFF;
 }
 
 /*
