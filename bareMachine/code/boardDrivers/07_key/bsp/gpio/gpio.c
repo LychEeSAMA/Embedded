@@ -24,7 +24,7 @@ void gpio_pin_write(GPIO_Type *gpio, int pin_index, int value)
     }
 }
 
-/* gpio 配置 */
+/* gpio 配置 主要是设置gpio是做输入还是做输出 */
 void gpio_pin_config(GPIO_Type *gpio, int pin_index, GPIO_Config *config)
 {
     switch (config->direction)
