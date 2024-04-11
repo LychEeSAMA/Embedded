@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bsp_led.h": "c",
+        "imx6ul.h": "c",
+        "bsp_beep.h": "c",
+        "bsp_delay.h": "c",
+        "bsp_gpio.h": "c",
+        "bsp_key.h": "c",
+        "bsp_clk.h": "c"
+    }
+}
