@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "bsp_delay.h": "c",
+        "imx6ul.h": "c",
+        "bsp_interrput.h": "c",
+        "bsp_key_filter.h": "c"
+    }
+}
