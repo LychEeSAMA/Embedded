@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "bsp_exti.h": "c",
+        "bsp_epit_timer.h": "c",
+        "bsp_interrput.h": "c",
+        "imx6ul.h": "c",
+        "bsp_led.h": "c"
+    }
+}
