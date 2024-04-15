@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "div64.h": "c",
+        "stdio.h": "c",
+        "bsp_delay.h": "c",
+        "bsp_gpio.h": "c",
+        "bsp_lcd.h": "c",
+        "bsp_rtc.h": "c"
+    }
+}
